@@ -146,6 +146,7 @@ while True:
 			break
 		elif 	again == "NÃO" or again == "N" or again == "'N'" or again == "NAO":
 			print("Quitting...")
+			animation.destroy()
 			raise SystemExit(0)
 		else:
 			print("Não entendi. Por favor tente novamente:")
